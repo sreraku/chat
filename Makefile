@@ -20,4 +20,4 @@ chatClient:
 
 all:	chatServer chatClient
 clean:	
-	$(RM) chatServer* chatClient*
+	$(RM) chatServer chatClient
