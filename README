@@ -1,0 +1,27 @@
+Copying
+-------
+
+Free use of this software is granted under the terms of the GNU Lesser General
+Public License (LGPL). For details see the file `LICENSE`
+
+Install
+------
+
+See 'INSTALL' file
+
+Dependancies
+-----------
+
+This software requires zeromq, hiredis, boost C++ libraries, redis, protocol buffers (by google)  distributions installed. Please see 
+corresponding documentation for installation and running.
+
+
+Usage
+----
+
+For chatserver
+chatServer -n <chatroomName> -i <rcv_ipaddress:port>-p <pub_ipaddress:port>
+
+For client
+  To send chats - chatClient -s -u <username> -i <server_ipaddress:port>
+  To receive chats - chatClient -r -u <username> -i <server_listen_ipaddress:port>
