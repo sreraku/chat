@@ -1,9 +1,0 @@
-package chat;
-
-message zMQChatBuf {
-	optional string chatString = 1;
-	optional string clientInfo = 2;
-	optional int32 clientId = 3;
-	optional int32 status = 4;
-	optional string time = 5;
-}
